@@ -583,13 +583,7 @@ const SecondPage = () => {
 
 
 
-        <Box>
-            
-                                
-
-
-        </Box>
-
+        
 
 
 
