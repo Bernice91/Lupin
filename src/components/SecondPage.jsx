@@ -582,12 +582,12 @@ const SecondPage = () => {
 
             </Box>
 
-            <Box sx={{ backgroundColor: '#FDF4FE', width: '100%', height: '100vh' }}>
-                <Box sx={{ padding: '50px' }}>
+            <Box sx={{ backgroundColor: '#FDF4FE', width: '100%', padding: '50px' }}>
+                <Box >
                     <Typography variant='h5' sx={{ fontSize: '25px', fontWeight: '500', fontFamily: 'sans-serif' }}>
                         FAQs
                     </Typography>
-                    <Box sx={{ marginTop: '20px' }}>
+                    <Box sx={{ padding:'50px' }}>
                         <Stack direction='row' spacing={2}>
                             <Button variant='contained' sx={{ backgroundColor: '#6C4675', textTransform: 'capitalize' }}>Topic 1</Button>
                             <Button variant='outlined' color='#6C4675' sx={{ color: '#6C4675', textTransform: 'capitalize' }}>Topic 2</Button>
@@ -644,7 +644,9 @@ const SecondPage = () => {
 
             </Box>
 
-            <Box sx={{ backgroundColor: '#E5FEEF', width: '100%', height: '100vh', padding: '50px' }}>
+            <Box sx={{ backgroundColor: '#E5FEEF', width: '100%', padding: '50px' }}>   
+                
+                <Box>
                 <Accordion sx={{ width: '90%', padding: 2, backgroundColor: '#E5FEEF', boxShadow: 'none' }}>
 
                     <AccordionSummary sx={{ color: '#6C4675', fontWeight: '400', fontSize: '20px', borderBottom: 'solid', borderBottomColor: '#00B32D' }}
@@ -656,8 +658,8 @@ const SecondPage = () => {
 
                     </AccordionSummary>
 
-                    <AccordionDetails sx={{ fontSize: '12px', lineHeight: '20px', display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '20px' }}>
-
+                    <AccordionDetails sx={{  display: 'flex', flexDirection: 'column' }}>
+                       <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
                         <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
                         <hr/>
                         <Typography variant='body1'>Complete Blood Count Test</Typography>
@@ -670,6 +672,8 @@ const SecondPage = () => {
                         <hr/>
                         <Typography variant='body1'>ViaminB12 Test</Typography>
                         <hr/>
+                        </Box>
+                        <Box sx={{width:'50%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
                         <Typography variant='body1'>Liver Function Test(LFT)</Typography>
                         <hr/>
                         <Typography variant='body1'>Calcium Test</Typography>
@@ -677,19 +681,259 @@ const SecondPage = () => {
                         <Typography variant='body1'>Allergy Test</Typography>
                         <hr/>
                         <Typography variant='body1'>HbAa1c Test</Typography>
+                        </Box>
+
+                    </AccordionDetails>
+
+                </Accordion>
+                </Box>
+
+                <Box>
+                <Accordion sx={{ width: '90%', padding: 2, backgroundColor: '#E5FEEF', boxShadow: 'none' }}>
+
+                    <AccordionSummary sx={{ color: '#6C4675', fontWeight: '400', fontSize: '20px', borderBottom: 'solid', borderBottomColor: '#00B32D' }}
+                        expandIcon={<ExpandMoreIcon sx={{ backgroundColor: '#00B32D', color: 'white' }} />}
+                        aria-controls="panel1-content"
+                        id="panel1-header"
+                    >
+                        Popular Tests
+
+                    </AccordionSummary>
+
+                    <AccordionDetails sx={{  display: 'flex', flexDirection: 'column', borderBottomStyle:'none',boxShadow:'none' }}>
+                       <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'50%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Liver Function Test(LFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Calcium Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Allergy Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>HbAa1c Test</Typography>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'25%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'left',padding:'20px 0'}}>
+                        <Typography variant='body1'>Liver Function Test(LFT)</Typography>
+                        
+                        
+                        </Box>
 
 
 
                     </AccordionDetails>
 
                 </Accordion>
+                </Box>
+
+                <Box>
+                <Accordion sx={{ width: '90%', padding: 2, backgroundColor: '#E5FEEF', boxShadow: 'none' }}>
+
+                    <AccordionSummary sx={{ color: '#6C4675', fontWeight: '400', fontSize: '20px', borderBottom: 'solid', borderBottomColor: '#00B32D' }}
+                        expandIcon={<ExpandMoreIcon sx={{ backgroundColor: '#00B32D', color: 'white' }} />}
+                        aria-controls="panel1-content"
+                        id="panel1-header"
+                    >
+                        Popular Tests
+
+                    </AccordionSummary>
+
+                    <AccordionDetails sx={{  display: 'flex', flexDirection: 'column', borderBottomStyle:'none',boxShadow:'none' }}>
+                       <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+                        
+
+                    </AccordionDetails>
+
+                </Accordion>
+                </Box>
+
+                <Box>
+                <Accordion sx={{ width: '90%', padding: 2, backgroundColor: '#E5FEEF', boxShadow: 'none' }}>
+
+                    <AccordionSummary sx={{ color: '#6C4675', fontWeight: '400', fontSize: '20px', borderBottom: 'solid', borderBottomColor: '#00B32D' }}
+                        expandIcon={<ExpandMoreIcon sx={{ backgroundColor: '#00B32D', color: 'white' }} />}
+                        aria-controls="panel1-content"
+                        id="panel1-header"
+                    >
+                        Popular Tests
+
+                    </AccordionSummary>
+
+                    <AccordionDetails sx={{  display: 'flex', flexDirection: 'column', borderBottomStyle:'none',boxShadow:'none' }}>
+                       <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
+                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>VitaminD Test</Typography>
+                        <hr/>
+                        <Typography variant='body1'>ViaminB12 Test</Typography>
+                        <hr/>
+                        </Box>
+
+
+                    </AccordionDetails>
+
+                </Accordion>
+                </Box>
+
             </Box>
 
-            <Box sx={{ backgroundColor: '#6C4675', width: '100%', height: '100vh' }}>
+           <Box sx={{ backgroundColor: '#6C4675', width: '100%', height: '100vh' }}>    {/*  /*{Footer} */}
                 <Box sx={{ color: 'white', padding: '50px'}}>
                  <Stack direction='row' spacing={2}>
                 <img src='https://lupindiagnostics.com/assets/images/logo-white.png' height='55px' style={{marginRight:'550px'}}/>
-                    <Typography variant='h5'>Contact Us:7030 300 400</Typography>
+                    <Typography variant='h5'>Contact Us:+91 7030 300 400</Typography>
                    
                     <Avatar variant="rounded" sx={{backgroundColor:"#9D65A8"}} >
                             <FacebookOutlinedIcon/>
