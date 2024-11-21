@@ -120,6 +120,9 @@ const SecondPage = () => {
                     </CardActions>
 
                 </Card>
+
+                
+
             </Box>
 
             <Box sx={{ width: '100%', marginTop: '50px', display: 'flex', flexDirection: 'row', gap: '20px', }}>
@@ -696,64 +699,50 @@ const SecondPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        Popular Tests
+                        Popular Health Packages
 
                     </AccordionSummary>
 
                     <AccordionDetails sx={{  display: 'flex', flexDirection: 'column', borderBottomStyle:'none',boxShadow:'none' }}>
                        <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
-                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <Typography variant='body1'>LupiKavach Health Package-Orchid</Typography>
                         <hr/>
-                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <Typography variant='body1'>LupiKavach Health Screen Package-Daisy</Typography>
                         <hr/>
-                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <Typography variant='body1'>Lupikavach Pre Operative</Typography>
                         <hr/>
-                        <Typography variant='body1'>Thyroid Profile Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>VitaminD Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>ViaminB12 Test</Typography>
-                        <hr/>
+                        <Typography variant='body1'>LupiKavach Diabetic Screen</Typography>
+                       
                         </Box>
 
                         <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
-                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <Typography variant='body1'>LupinKavach Vitamin Check</Typography>
                         <hr/>
-                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <Typography variant='body1'>LupinKavach Diabetic Heart Screen</Typography>
                         <hr/>
-                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <Typography variant='body1'>LupinKavach Health Screen package</Typography>
                         <hr/>
-                        <Typography variant='body1'>Thyroid Profile Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>VitaminD Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>ViaminB12 Test</Typography>
-                        <hr/>
+                        <Typography variant='body1'>Lupikavach Complete Diabetic Screen</Typography>
+                                               
                         </Box>
 
                         <Box sx={{width:'50%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
-                        <Typography variant='body1'>Liver Function Test(LFT)</Typography>
+                        <Typography variant='body1'>LupiKavach Fever Check Gold</Typography>
                         <hr/>
-                        <Typography variant='body1'>Calcium Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>Allergy Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>HbAa1c Test</Typography>
+                        <Typography variant='body1'>LupiKavach Healthy Women Package-Rose</Typography>
+                        
                         </Box>
 
                         <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
-                        <Typography variant='body1'>Kideny Function Test(KFT)</Typography>
+                        <Typography variant='body1'>Health Checkups in Mumbai</Typography>
                         <hr/>
-                        <Typography variant='body1'>Complete Blood Count Test</Typography>
+                        <Typography variant='body1'>Health Checkups in Pune</Typography>
                         <hr/>
-                        <Typography variant='body1'>Lipid Profile Test</Typography>
+                        <Typography variant='body1'>Health Checkups in Ranchi</Typography>
                         <hr/>
-                        <Typography variant='body1'>Thyroid Profile Test</Typography>
+                        <Typography variant='body1'>Health Checkups in Kolkata</Typography>
                         <hr/>
-                        <Typography variant='body1'>VitaminD Test</Typography>
-                        <hr/>
-                        <Typography variant='body1'>ViaminB12 Test</Typography>
-                        <hr/>
+                        <Typography variant='body1'>Health Checkups in Nashik</Typography>
                         </Box>
 
                         <Box sx={{width:'100%',fontSize: '12px', gap:'30px', display: 'flex', flexDirection: 'row', justifyContent: 'center',padding:'20px 0'}}>
@@ -822,7 +811,7 @@ const SecondPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        Popular Tests
+                        Our Presence in Your City(Mumbai)
 
                     </AccordionSummary>
 
@@ -856,7 +845,7 @@ const SecondPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        Popular Tests
+                        Our Presence in Other Cities
 
                     </AccordionSummary>
 
@@ -937,6 +926,7 @@ const SecondPage = () => {
                    
                     <Avatar variant="rounded" sx={{backgroundColor:"#9D65A8"}} >
                             <FacebookOutlinedIcon/>
+                            
                         </Avatar>
                         <Avatar variant="rounded" sx={{backgroundColor:"#9D65A8"}} >
                             <Instagram/>
